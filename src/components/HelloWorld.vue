@@ -1,7 +1,7 @@
 <template>
   <div>
     {{ msg }}
-    <Button />
+    <Button text='hayooo!' />
   </div>
 </template>
 
