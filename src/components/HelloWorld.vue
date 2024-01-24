@@ -1,15 +1,14 @@
 <template>
   <div>
     {{ msg }}
-    <HelloWorld />
+    <Button />
   </div>
 </template>
 
 <script>
 import Button from 'OEXShared/Button';
-import HelloWorld from 'OEXShared/HelloWorld';
 export default {
   props: ['msg'],
-  components: {Button, HelloWorld}
+  components: {Button}
 };
 </script>
